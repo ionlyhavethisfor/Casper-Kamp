@@ -13,16 +13,14 @@ h3 {color: rgb(250, 250, 250);}
 h4 {color: rgb(250, 250, 250);}
 h5 {color: rgb(250, 250, 250);}
 h6 {color: rgb(250, 250, 250);}
-.blackside {background-color: rgb(0, 0, 0); font-weight: bold; font-family: monospace;}
-.whiteside {background-color: rgb(204, 186, 167); color: rgb(0, 0, 0); font-weight: bold; font-family: monospace;}
+.blackside {background-color: rgb(0, 0, 0); font-weight: bold; font-family: monospace; line-height: 1.5em;}
+.whiteside {background-color: rgb(204, 186, 167); color: rgb(0, 0, 0); font-weight: bold; font-family: monospace; line-height: 1.5em;}
 a { color: yellow; }
   #otbgames { background: rgb(230, 230, 230);
             width: 70%;
             height: 400px;
             overflow: auto; margin: auto;
 border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
-#benko {}
-#sveshni {}
 #accounts { position: fixed;
   top: 80px;
   right :50px;
@@ -30,10 +28,17 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
   border: 5px dashed;
   padding: 5px;}
 #mainimage { border: 5px double;
-  width: 70%}
+  width: 70%; margin: auto;}
+  #reti {width: 60%;}
+  #benko {width: 60%;}
+  #sveshni {width: 60%;}
+  
 </style>
 </head>
 <body>
+<header>
+</header>
+<main>
 <h1>Casper Louv Kamp Chess Website</h1>
 <img id="mainimage" src="https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg" alt="IRL chess pieces" width="500"> 
 <p>This looks something like my own chess set!</p>
@@ -51,12 +56,14 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
 <li> <a target="_blank" href="https://www.chess.com/member/ionlypractice"> iOnlyPractice </a> on chess.com.</li>
 <li> and <a target="_blank" href="https://chess24.com/en/profile/ionlyhavethisfor"> ionlyhavethisfor </a> on chess24.</li>
 </ul></div>
+<hr/>
 <h2 id="repertoire">My Repertoire</h2>
 <ul>
-<li>Reti Opener as white<br><img src="https://www.thechesswebsite.com/wp-content/uploads/2012/07/RetiOpening.jpg" alt="Reti Opening" width="200"></li>
-<div id="sveshni"><li>Sicilian Sveshnikov against e4 <br> <img src="https://i.ytimg.com/vi/4kuTAnse6xY/hqdefault.jpg" alt="Sveshnikov Sicilian" width="250" height="200"></li></div>
-<div id="benko"><li>Benko Gambit against d4<br><img src="https://www.thechesswebsite.com/wp-content/uploads/2015/08/the-benko-gambit.jpg" alt="benko gambit" width="200"></li></div>
+<li>Reti Opener as white<br><img id="reti" src="https://www.thechesswebsite.com/wp-content/uploads/2012/07/RetiOpening.jpg" alt="Reti Opening"></li>
+<li>Sicilian Sveshnikov against e4 <br><img id="sveshni" src="https://i.ytimg.com/vi/4kuTAnse6xY/hqdefault.jpg" alt="Sveshnikov Sicilian"></li>
+<li>Benko Gambit against d4<br><img id="benko" src="https://www.thechesswebsite.com/wp-content/uploads/2015/08/the-benko-gambit.jpg" alt="benko gambit"></li>
 </ul>
+<hr/>
 <h2 id="otb"> My Over-the-Board Games</h2>
 <p> Here is a link to my OTB games on <a target="_blank" href="https://lichess.org/study/9Vtgxpma"> lichess study.</a>
 <br>Or look at them here.</p>
@@ -66,12 +73,14 @@ width=600 height=397 frameborder=0></iframe>
 width=600 height=397 frameborder=0></iframe>
 <iframe src="https://lichess.org/embed/4qFz214O#32?theme=auto&bg=auto"
 width=600 height=397 frameborder=0></iframe></p></div>
+<hr/>
 <h2>Top 3 most annoying openings</h2>
 <ol>
 <li>London</li>
 <li>Closed Sicilian</li>
 <li>Modern and Pirc defences</li>
 </ol>
+<hr/>
 <h2>Thematic Sequences</h2>
 <ul>
 <li class="blackside"> Benko 1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6
@@ -88,7 +97,11 @@ width=600 height=397 frameborder=0></iframe></p></div>
 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. O-O Bxd5
 13. exd5 Ne7 14. Nxb5 Bg7 15. Nc3 e4 16. Bc4 O-O
   17. Qh5 Qc7 18. Bb3 Bxc3 19. bxc3 f4 </li></ul>
+  <hr/>
+</main>
+<footer>
 <h4>About Casper</h4>
 <p id="about"> Hi, my name is Casper Louv Kamp. I'm a Danish intermediate-level chess player. Although it is not much, for education I have a bachelor's in American Studies from the University of Southern Denmark. I play chess for a hobby, among other things. Lichess is a great site for playing chess. Go play a <a target="_blank" href="http://lichess.org">game.</a></p>
+</footer>
 </body>
 </html>
