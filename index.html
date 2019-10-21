@@ -18,17 +18,12 @@ a { color: yellow; }
             height: 400px;
             overflow: auto; margin: auto;
 border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
-#benko { position: absolute;
-            top: 475px;
-            left: 300px;}
-#sveshni { position: absolute;
-            top: 475px;
-            left: 550px;
-  width: 600px}
-#accounts { position: absolute;
+#benko {}
+#sveshni {}
+#accounts { position: fixed;
   top: 80px;
   left:700px;
-  width: 30%;
+  width: 20%;
   border: 5px dashed;
   padding: 5px;}
 #mainimage { border: 5px double;
@@ -37,20 +32,29 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
 </head>
 <body>
 <h1>Casper Louv Kamp Chess Website</h1>
-<p><img id="mainimage" src="https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg" alt="IRL chess pieces" width="500"> 
-<div id="accounts"><p>Links to my various chess accounts</p>
+<img id="mainimage" src="https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg" alt="IRL chess pieces" width="500"> 
+<p>This looks something like my own chess set!</p>
+<div id="accounts">
+  <p>
+    Table of Contents:</p>
+  <ul>
+    <li><a href="#repertoire">My Repertoire</a></li>
+    <li><a href="#otb">My OTB Games</a></li>
+<li><a href="#about">About Casper</a></li>
+  </ul>
+  <p>Links to my various chess accounts</p>
 <ul>
 <li> On Lichess <a target="_blank" href="https://lichess.org/@/iOnlyPractice"> iOnlyPractice </a> and <a target="_blank" href="https://lichess.org/@/ionlyhavethisfor"> ionlyhavethisfor.</a></li>
 <li> <a target="_blank" href="https://www.chess.com/member/ionlypractice"> iOnlyPractice </a> on chess.com.</li>
 <li> and <a target="_blank" href="https://chess24.com/en/profile/ionlyhavethisfor"> ionlyhavethisfor </a> on chess24.</li>
-  </ul></div></p>
-<h2>My Repertoire</h2>
+</ul></div>
+<h2 id="repertoire">My Repertoire</h2>
 <ul>
 <li>Reti Opener as white<br><img src="https://www.thechesswebsite.com/wp-content/uploads/2012/07/RetiOpening.jpg" alt="Reti Opening" width="200"></li>
 <div id="sveshni"><li>Sicilian Sveshnikov against e4 <br> <img src="https://i.ytimg.com/vi/4kuTAnse6xY/hqdefault.jpg" alt="Sveshnikov Sicilian" width="250" height="200"></li></div>
 <div id="benko"><li>Benko Gambit against d4<br><img src="https://www.thechesswebsite.com/wp-content/uploads/2015/08/the-benko-gambit.jpg" alt="benko gambit" width="200"></li></div>
 </ul>
-<h2> My Over-the-Board Games</h2>
+<h2 id="otb"> My Over-the-Board Games</h2>
 <p> Here is a link to my OTB games on <a target="_blank" href="https://lichess.org/study/9Vtgxpma"> lichess study.</a>
 <br>Or look at them here.</p>
 <div id="otbgames"><p><iframe src="https://lichess.org/embed/Sb6rUMG8#0?theme=auto&bg=auto"
@@ -81,6 +85,6 @@ width=600 height=397 frameborder=0></iframe></p></div>
 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. O-O Bxd5
 13. exd5 Ne7 14. Nxb5 Bg7 15. Nc3 e4 16. Bc4 O-O
   17. Qh5 Qc7 18. Bb3 Bxc3 19. bxc3 f4 </li></ul>
-<p> Lichess is a great site for playing chess. Go play a <a target="_blank" href="http://lichess.org">game</a></p>
+<p id="about"> Hi, my name is Casper Louv Kamp. I'm a Danish intermediate-level chess player. Although it is not much, for education I have a bachelor's in American Studies from the University of Southern Denmark. I play chess for a hobby, among other things. Lichess is a great site for playing chess. Go play a <a target="_blank" href="http://lichess.org">game.</a></p>
 </body>
 </html>
