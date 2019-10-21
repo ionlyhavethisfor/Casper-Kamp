@@ -6,7 +6,7 @@
 <style> body { background-color: rgb(77, 66, 67); 
 font-family: "Helvetica", serif;} 
 p {color: rgb(250, 250, 250);}
-h1 {color: rgb(250, 250, 250); position: relative; left: 200px;}
+h1 {color: rgb(250, 250, 250); text-align: center;}
 li {color: rgb(250, 250, 250);}
 h2 {color: rgb(250, 250, 250);}
 h3 {color: rgb(250, 250, 250);}
@@ -19,7 +19,7 @@ a { color: yellow; }
   #otbgames { background: rgb(230, 230, 230);
             width: 70%;
             height: 400px;
-            overflow: auto; margin: auto;
+            overflow: auto; margin: left;
 border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
 #accounts { position: fixed;
   top: 80px;
@@ -28,10 +28,9 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
   border: 5px dashed;
   padding: 5px;}
 #mainimage { border: 5px double;
-  width: 70%; margin: auto;}
-  #reti {width: 60%;}
-  #benko {width: 60%;}
-  #sveshni {width: 60%;}
+  width: 75%; margin: auto;}
+#repertoire1 li {display: inline; }
+#repertoire2 li {display: inline; }
   
 </style>
 </head>
@@ -39,13 +38,14 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
 <header>
 </header>
 <main>
-<h1>Casper Louv Kamp Chess Website</h1>
+<h1 id="thetop">Casper Louv Kamp Chess Website</h1>
 <img id="mainimage" src="https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg" alt="IRL chess pieces" width="500"> 
 <p>This looks something like my own chess set!</p>
 <div id="accounts">
   <p>
     Table of Contents:</p>
   <ul>
+  <li><a href="#thetop">Go to the top</a></li>
     <li><a href="#repertoire">My Repertoire</a></li>
     <li><a href="#otb">My OTB Games</a></li>
 <li><a href="#about">About Casper</a></li>
@@ -58,11 +58,14 @@ border: 5px solid rgb(0, 0, 0); border-top: 10px solid rgb(0, 0, 0);}
 </ul></div>
 <hr/>
 <h2 id="repertoire">My Repertoire</h2>
-<ul>
-<li>Reti Opener as white<br><img id="reti" src="https://www.thechesswebsite.com/wp-content/uploads/2012/07/RetiOpening.jpg" alt="Reti Opening"></li>
-<li>Sicilian Sveshnikov against e4 <br><img id="sveshni" src="https://i.ytimg.com/vi/4kuTAnse6xY/hqdefault.jpg" alt="Sveshnikov Sicilian"></li>
-<li>Benko Gambit against d4<br><img id="benko" src="https://www.thechesswebsite.com/wp-content/uploads/2015/08/the-benko-gambit.jpg" alt="benko gambit"></li>
-</ul>
+<div id="repertoire1"><ul>
+<li><iframe width=600 height=371 src="https://lichess.org/study/embed/4yYmb65H/SRdwRyhN#1" frameborder=0></iframe></li>
+<li><iframe width=600 height=371 src="https://lichess.org/study/embed/4yYmb65H/z166rQ6Q#12" frameborder=0></iframe></li>
+</div>
+<div id="repertoire2">
+<li><iframe width=600 height=371 src="https://lichess.org/study/embed/4yYmb65H/YVjDLV9F#6" frameborder=0></iframe></li>
+<li><iframe width=600 height=371 src="https://lichess.org/study/embed/4yYmb65H/sCQWkqHP#1" frameborder=0></iframe></li>
+</ul></div>
 <hr/>
 <h2 id="otb"> My Over-the-Board Games</h2>
 <p> Here is a link to my OTB games on <a target="_blank" href="https://lichess.org/study/9Vtgxpma"> lichess study.</a>
