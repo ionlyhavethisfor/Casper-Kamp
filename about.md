@@ -16,7 +16,7 @@ body { background-color:blue;}
 </header>
 
 <main>
-<h1>This is the front page</h1>
+<h1>This is the about section</h1>
 
 
 <h2></h2>
